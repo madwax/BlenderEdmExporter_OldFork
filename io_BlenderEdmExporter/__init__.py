@@ -10,6 +10,7 @@ from .edmexporter import*
 from .edmpanels import*
 from .edmprops import*
 from .edmmessagebox import*
+from .edmprojectsettings import*
 from bpy_extras.io_utils import ExportHelper
 
 if "bpy" in locals():
@@ -72,6 +73,9 @@ def register():
 
     bpy.utils.register_class(EDMObjectContextMenuSubMenu)
     bpy.types.VIEW3D_MT_object_context_menu.append(EDMObjectContextMenuSubMenuFunc)
+
+    registerProjectSettings()
+
 def unregister():
     bpy.utils.unregister_class(ActionOptionPanel)
     bpy.utils.unregister_class(EDMObjectPanel)
@@ -81,6 +85,9 @@ def unregister():
 
     bpy.utils.unregister_class(EDMObjectContextMenuSubMenu)
     bpy.types.VIEW3D_MT_object_context_menu.remote(EDMObjectContextMenuSubMenuFunc)
+
+    unregisterProjectSettings()
+
 
 
 # This allows you to run the script directly from Blender's Text editor

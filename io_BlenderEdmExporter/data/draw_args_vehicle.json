@@ -1,0 +1,556 @@
+{
+  "args": [
+    {
+      "num": 0,
+      "desc": "Turret rotation in horizontal",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left up to 180°"
+        },
+        {
+          "value": 1,
+          "desc": "Right up to 180°"
+        }
+      ]
+    },
+    {
+      "num": 1,
+      "desc": "Turret rotation in vertical",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "In horizon"
+        },
+        {
+          "value": 1,
+          "desc": "Higher"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "desc": "Built-in hydraulic jacks",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Lifted"
+        },
+        {
+          "value": 1,
+          "desc": "Lowered"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "desc": "Launchers, sensors and other",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "In transport position"
+        },
+        {
+          "value": 1,
+          "desc": "In combat position"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "desc": "Cover of the launcher tube #1",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "desc": "Cover of the launcher tube #2",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "desc": "Cover of the launcher tube #3",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "desc": "Cover of the launcher tube #4",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "desc": "Wheels rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0°"
+        },
+        {
+          "value": 1,
+          "desc": "360°"
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "desc": "Turn of a wheels",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left 30°"
+        },
+        {
+          "value": 1,
+          "desc": "Right 30°"
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "desc": "Turn of semitrailer",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left 90°"
+        },
+        {
+          "value": 1,
+          "desc": "Right 90°"
+        }
+      ]
+    },
+    {
+      "num": 11,
+      "desc": "Radar turn",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left 180°"
+        },
+        {
+          "value": 1,
+          "desc": "Right 180°"
+        }
+      ]
+    },
+    {
+      "num": 12,
+      "desc": "Track wheels rotation on left side",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0°"
+        },
+        {
+          "value": 1,
+          "desc": "360°"
+        }
+      ]
+    },
+    {
+      "num": 13,
+      "desc": "Track shift on left side",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Initial position"
+        },
+        {
+          "value": 1,
+          "desc": "Shift on 0.5 length of track"
+        }
+      ]
+    },
+    {
+      "num": 14,
+      "desc": "Track wheels rotation on right side",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0°"
+        },
+        {
+          "value": 1,
+          "desc": "360°"
+        }
+      ]
+    },
+    {
+      "num": 15,
+      "desc": "Track shift on right side",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Initial position"
+        },
+        {
+          "value": 1,
+          "desc": "Shift on 0.5 length of track"
+        }
+      ]
+    },
+    {
+      "num": 16,
+      "desc": "Country (not used in LOM models) \nRefer to the 24 arg",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": null,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 17,
+      "desc": "Color scheme variant\n(not used in LOM models)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "With 0.1 increment"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 18,
+      "desc": "Cover of the launcher tube #5",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 19,
+      "desc": "Cover of the launcher tube #6",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 20,
+      "desc": "Slope shape",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Nose Up"
+        },
+        {
+          "value": 1,
+          "desc": "Nose down"
+        }
+      ]
+    },
+    {
+      "num": 21,
+      "desc": "Curtsey shape",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Initial position"
+        },
+        {
+          "value": 1,
+          "desc": "Down position"
+        }
+      ]
+    },
+    {
+      "num": 22,
+      "desc": "Jiggle shape",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Jiggle right"
+        },
+        {
+          "value": 1,
+          "desc": "Jiggle left"
+        }
+      ]
+    },
+    {
+      "num": 23,
+      "desc": "Flame of shot",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 24,
+      "desc": "Description for model_name.skin file season textures\n value s.ssccc s.ss is Session and ccc is country code, go look it up",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0.25,
+          "desc": "Summer Russia"
+        },
+        {
+          "value": 0.5,
+          "desc": "Winter Russia"
+        },
+        {
+          "value": 0.75,
+          "desc": "Spring Russia"
+        },
+        {
+          "value": 0.1,
+          "desc": "Fall Russia"
+        },
+        {
+          "value": 0.25012,
+          "desc": "Summer Norway"
+        },
+        {
+          "value": 0.50012,
+          "desc": "Winter Norway"
+        },
+        {
+          "value": 0.75012,
+          "desc": "Spring Norway"
+        },
+        {
+          "value": 0.10012,
+          "desc": "Fall Norway"
+        }
+      ]
+    },
+    {
+      "num": 25,
+      "desc": "Turret machinegun rotation in horizontal",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left"
+        },
+        {
+          "value": 1,
+          "desc": "Right°"
+        }
+      ]
+    },
+    {
+      "num": 26,
+      "desc": "Turret machinegun rotation in vertical",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Lower"
+        },
+        {
+          "value": 0,
+          "desc": "In horizon"
+        },
+        {
+          "value": 1,
+          "desc": "Higher"
+        }
+      ]
+    },
+    {
+      "num": 27,
+      "desc": "Cover of the launcher tube #7",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 28,
+      "desc": "Cover of the launcher tube #8",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 29,
+      "desc": "Cover of the launcher tube #9",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 30,
+      "desc": "Cover of the launcher tube #10",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 31,
+      "desc": "Cover of the launcher tube #11",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 32,
+      "desc": "Cover of the launcher tube #12",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Open"
+        },
+        {
+          "value": 1,
+          "desc": "Close"
+        }
+      ]
+    }
+  ]
+}

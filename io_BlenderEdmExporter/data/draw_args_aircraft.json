@@ -1,0 +1,5836 @@
+{
+  "args": [
+    {
+      "num": 0,
+      "desc": "Angle of draw nose gear",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 1,
+      "desc": "Strut compression nose gear",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Extended "
+        },
+        {
+          "value": 0.5,
+          "desc": "On parking "
+        },
+        {
+          "value": 1,
+          "desc": "Retracted"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "desc": "Steering angle nose gear",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Clockwise max"
+        },
+        {
+          "value": 1,
+          "desc": "Counterclockwise max"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "desc": "Angle of draw right gear",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "desc": "Strut compression right gear",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Extended "
+        },
+        {
+          "value": 0.5,
+          "desc": "On parking "
+        },
+        {
+          "value": 1,
+          "desc": "Retracted"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "desc": "Angle of draw left gear",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "desc": "Strut compression left gear",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Extended "
+        },
+        {
+          "value": 0.5,
+          "desc": "On parking "
+        },
+        {
+          "value": 1,
+          "desc": "Retracted"
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "desc": "Wing variable sweep",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "min"
+        },
+        {
+          "value": 1,
+          "desc": "max"
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "desc": "Folding wing",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Extended "
+        },
+        {
+          "value": 1,
+          "desc": "Retracted"
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "desc": "Angle of draw right flap",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "desc": "Angle of draw left flap",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 11,
+      "desc": "Angle of draw right aileron",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Down max"
+        },
+        {
+          "value": 1,
+          "desc": "Up max"
+        }
+      ]
+    },
+    {
+      "num": 12,
+      "desc": "Angle of draw left aileron",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Down max"
+        },
+        {
+          "value": 1,
+          "desc": "Up max"
+        }
+      ]
+    },
+    {
+      "num": 13,
+      "desc": "Angle of draw right slat",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 14,
+      "desc": "Angle of draw left slat",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 15,
+      "desc": "Angle of rotation right stabilizer or elevator",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Tail edge down"
+        },
+        {
+          "value": 1,
+          "desc": "Tail edge up"
+        }
+      ]
+    },
+    {
+      "num": 16,
+      "desc": "Angle of rotation left stabilizer or elevator",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Tail edge down"
+        },
+        {
+          "value": 1,
+          "desc": "Tail edge up"
+        }
+      ]
+    },
+    {
+      "num": 17,
+      "desc": "Angle of rotation right rudder",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Counterclockwise Clockwise"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 18,
+      "desc": "Angle of rotation left rudder",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Counterclockwise Clockwise"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 19,
+      "desc": "Angle of rotation right canard",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Tail edge down"
+        },
+        {
+          "value": 1,
+          "desc": "Tail edge up"
+        }
+      ]
+    },
+    {
+      "num": 20,
+      "desc": "Angle of rotation left canard",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Tail edge down"
+        },
+        {
+          "value": 1,
+          "desc": "Tail edge up"
+        }
+      ]
+    },
+    {
+      "num": 21,
+      "desc": "Drag parachut",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 22,
+      "desc": "Refueling boom",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 23,
+      "desc": "Shoes",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 24,
+      "desc": "Intake closers",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 25,
+      "desc": "Hook",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 26,
+      "desc": "Bomb bay doors",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Close"
+        },
+        {
+          "value": 1,
+          "desc": "Open"
+        }
+      ]
+    },
+    {
+      "num": 27,
+      "desc": "Country",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Russia"
+        },
+        {
+          "value": 0.01,
+          "desc": "Ukraine"
+        },
+        {
+          "value": 0.02,
+          "desc": "USA"
+        },
+        {
+          "value": 0.03,
+          "desc": "Turkey"
+        },
+        {
+          "value": 0.04,
+          "desc": "UK"
+        },
+        {
+          "value": 0.05,
+          "desc": "France"
+        },
+        {
+          "value": 0.06,
+          "desc": "Germany"
+        },
+        {
+          "value": 0.07,
+          "desc": "Aggressors"
+        },
+        {
+          "value": 0.08,
+          "desc": "Canada"
+        },
+        {
+          "value": 0.09,
+          "desc": "Spain"
+        },
+        {
+          "value": 0.1,
+          "desc": "The Netherlands"
+        },
+        {
+          "value": 0.11,
+          "desc": "Belgium"
+        },
+        {
+          "value": 0.12,
+          "desc": "Norway"
+        },
+        {
+          "value": 0.13,
+          "desc": "Denmark"
+        },
+        {
+          "value": 0.15,
+          "desc": "Israel"
+        },
+        {
+          "value": 0.16,
+          "desc": "Georgia"
+        },
+        {
+          "value": 0.17,
+          "desc": "Insurgents"
+        },
+        {
+          "value": 0.18,
+          "desc": "Abkhazia"
+        },
+        {
+          "value": 0.19,
+          "desc": "South_Osetia"
+        },
+        {
+          "value": 0.2,
+          "desc": "Italy"
+        },
+        {
+          "value": 0.21,
+          "desc": "Australia"
+        },
+        {
+          "value": 0.22,
+          "desc": "Switzerland"
+        },
+        {
+          "value": 0.23,
+          "desc": "Austria"
+        },
+        {
+          "value": 0.24,
+          "desc": "Belarus"
+        },
+        {
+          "value": 0.25,
+          "desc": "Bulgaria"
+        },
+        {
+          "value": 0.26,
+          "desc": "Chezh_Republic"
+        },
+        {
+          "value": 0.27,
+          "desc": "China"
+        },
+        {
+          "value": 0.28,
+          "desc": "Croatia"
+        },
+        {
+          "value": 0.29,
+          "desc": "Egypt"
+        },
+        {
+          "value": 0.3,
+          "desc": "Finland"
+        },
+        {
+          "value": 0.31,
+          "desc": "Greece"
+        },
+        {
+          "value": 0.32,
+          "desc": "Hungary"
+        },
+        {
+          "value": 0.33,
+          "desc": "India"
+        },
+        {
+          "value": 0.34,
+          "desc": "Iran"
+        },
+        {
+          "value": 0.35,
+          "desc": "Iraq"
+        },
+        {
+          "value": 0.36,
+          "desc": "Japan"
+        },
+        {
+          "value": 0.37,
+          "desc": "Kazakhstan"
+        },
+        {
+          "value": 0.38,
+          "desc": "North_Korea"
+        },
+        {
+          "value": 0.39,
+          "desc": "Pakistan"
+        },
+        {
+          "value": 0.4,
+          "desc": "Poland"
+        },
+        {
+          "value": 0.41,
+          "desc": "Romania"
+        },
+        {
+          "value": 0.42,
+          "desc": "Saudi_Arabia"
+        },
+        {
+          "value": 0.43,
+          "desc": "Serbia"
+        },
+        {
+          "value": 0.44,
+          "desc": "Slovakia"
+        },
+        {
+          "value": 0.45,
+          "desc": "South_Korea"
+        },
+        {
+          "value": 0.46,
+          "desc": "Sweden"
+        },
+        {
+          "value": 0.47,
+          "desc": "Syria"
+        },
+        {
+          "value": 0.48,
+          "desc": "Yemen"
+        },
+        {
+          "value": 0.49,
+          "desc": "Vietnam"
+        },
+        {
+          "value": 0.5,
+          "desc": "Venezuela"
+        },
+        {
+          "value": 0.51,
+          "desc": "Tunisia"
+        },
+        {
+          "value": 0.52,
+          "desc": "Thailand"
+        },
+        {
+          "value": 0.53,
+          "desc": "Sudan"
+        },
+        {
+          "value": 0.54,
+          "desc": "Philippines"
+        },
+        {
+          "value": 0.55,
+          "desc": "Morocco"
+        },
+        {
+          "value": 0.56,
+          "desc": "Mexico"
+        },
+        {
+          "value": 0.57,
+          "desc": "Malaysia"
+        },
+        {
+          "value": 0.58,
+          "desc": "Libya"
+        },
+        {
+          "value": 0.59,
+          "desc": "Jordan"
+        },
+        {
+          "value": 0.6,
+          "desc": "Indonesia"
+        },
+        {
+          "value": 0.61,
+          "desc": "Honduras"
+        },
+        {
+          "value": 0.62,
+          "desc": "Ethiopia"
+        },
+        {
+          "value": 0.63,
+          "desc": "Chile"
+        },
+        {
+          "value": 0.64,
+          "desc": "Brazil"
+        },
+        {
+          "value": 0.65,
+          "desc": "Bahrain"
+        },
+        {
+          "value": 0.66,
+          "desc": "Thirdreich"
+        },
+        {
+          "value": 0.67,
+          "desc": "Yugoslavia"
+        },
+        {
+          "value": 0.68,
+          "desc": "USSR"
+        },
+        {
+          "value": 0.69,
+          "desc": "Italian Social Republic"
+        },
+        {
+          "value": 0.7,
+          "desc": "Algeria"
+        },
+        {
+          "value": 0.71,
+          "desc": "Kuwait"
+        },
+        {
+          "value": 0.72,
+          "desc": "Qatar"
+        },
+        {
+          "value": 0.73,
+          "desc": "Oman"
+        },
+        {
+          "value": 0.74,
+          "desc": "United Arab Emirates"
+        }
+      ]
+    },
+    {
+      "num": 28,
+      "desc": "Afterburning right engine",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 29,
+      "desc": "Afterburning left engine",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 30,
+      "desc": "Refueling boom on the KC-10 tanker",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 31,
+      "desc": "Flight #... (first digit)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "With 0.1 increment"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 32,
+      "desc": "Aircraft #...(second digit)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "With 0.1 increment"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 33,
+      "desc": "Weapon pylons draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off "
+        },
+        {
+          "value": 1,
+          "desc": "On.  With 0.1 increment"
+        }
+      ]
+    },
+    {
+      "num": 34,
+      "desc": "Doors of TV sight",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Close"
+        },
+        {
+          "value": 1,
+          "desc": "Open"
+        }
+      ]
+    },
+    {
+      "num": 35,
+      "desc": "Parachute",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 0.5,
+          "desc": "Medium stage"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 36,
+      "desc": "Slew parachute at Y axis",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Down"
+        },
+        {
+          "value": 1,
+          "desc": "Up"
+        }
+      ]
+    },
+    {
+      "num": 37,
+      "desc": "Slew parachute at Z axis",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left"
+        },
+        {
+          "value": 1,
+          "desc": "Right"
+        }
+      ]
+    },
+    {
+      "num": 38,
+      "desc": "Draw angle of canopy",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Closed"
+        },
+        {
+          "value": 0.9,
+          "desc": "Elevated"
+        },
+        {
+          "value": 1,
+          "desc": "No draw"
+        }
+      ]
+    },
+    {
+      "num": 39,
+      "desc": "Draw angle head of pilot",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left"
+        },
+        {
+          "value": 1,
+          "desc": "Right"
+        }
+      ]
+    },
+    {
+      "num": 40,
+      "desc": "Draw angle of propeller rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0-360 degrees"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 41,
+      "desc": "Draw angle of radar rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0-360 degrees"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 42,
+      "desc": "Refueling cone (for Russian and US NAVY tankers)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 43,
+      "desc": "Refueleng cabel 1 slew at Y axis",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Down"
+        },
+        {
+          "value": 1,
+          "desc": "Up"
+        }
+      ]
+    },
+    {
+      "num": 44,
+      "desc": "Refueleng cabel 1 slew at Z axis",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left"
+        },
+        {
+          "value": 1,
+          "desc": "Right"
+        }
+      ]
+    },
+    {
+      "num": 45,
+      "desc": "Refueleng cabel 2 slew at Y axis",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Down"
+        },
+        {
+          "value": 1,
+          "desc": "Up"
+        }
+      ]
+    },
+    {
+      "num": 46,
+      "desc": "Refueleng cabel 2 slew at Z axis",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left"
+        },
+        {
+          "value": 1,
+          "desc": "Right"
+        }
+      ]
+    },
+    {
+      "num": 47,
+      "desc": "Refueleng cabel 3 slew at Y axis",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Down"
+        },
+        {
+          "value": 1,
+          "desc": "Up"
+        }
+      ]
+    },
+    {
+      "num": 48,
+      "desc": "Refueleng cabel 3 slew at Z axis",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left"
+        },
+        {
+          "value": 1,
+          "desc": "Right"
+        }
+      ]
+    },
+    {
+      "num": 49,
+      "desc": "Navigation lights",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 50,
+      "desc": "Ejecting seat draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "On "
+        },
+        {
+          "value": 0.5,
+          "desc": "Seat without pilot"
+        },
+        {
+          "value": 1,
+          "desc": "Off"
+        }
+      ]
+    },
+    {
+      "num": 51,
+      "desc": "Landing lights",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 52,
+      "desc": "Squadron #...(third digit)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "With 0.1 increment"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 53,
+      "desc": "Left aileron destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 54,
+      "desc": "Right aileron destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 55,
+      "desc": "Left flaps destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 56,
+      "desc": "Right flaps destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 57,
+      "desc": "Left rudder destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 58,
+      "desc": "Right rudder destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 59,
+      "desc": "Left elevator destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 60,
+      "desc": "Right elevator destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 61,
+      "desc": "Left V-stab destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 62,
+      "desc": "Right V-stab destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 63,
+      "desc": "Left stab destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 64,
+      "desc": "Right stab destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 65,
+      "desc": "Canopy destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 66,
+      "desc": "AWACS radar destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 67,
+      "desc": "Left wing destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 68,
+      "desc": "Right wing destruction",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 69,
+      "desc": "Night cockpit illumination",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 70,
+      "desc": "Color scheme",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "With 0.1 increment"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 71,
+      "desc": "Tanker's refueling cone #3",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 72,
+      "desc": "#1 Refueling pod’s  light",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 73,
+      "desc": "#2 Refueling pod’s  light",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 74,
+      "desc": "#3 Refueling pod’s  light",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 75,
+      "desc": "Tanker's refueling cone #2",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 76,
+      "desc": "Nose wheel rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 77,
+      "desc": "Main wheels rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 78,
+      "desc": "Antisurge doors",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Inside"
+        },
+        {
+          "value": 1,
+          "desc": "Outside"
+        }
+      ]
+    },
+    {
+      "num": 79,
+      "desc": "Gear truсk rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Forward wheel up"
+        },
+        {
+          "value": 1,
+          "desc": "Forward wheel down"
+        }
+      ]
+    },
+    {
+      "num": 80,
+      "desc": "Hardpoint markers for payload editor",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": ""
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 81,
+      "desc": "Tail section destroy",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Safe"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed"
+        }
+      ]
+    },
+    {
+      "num": 82,
+      "desc": "Nose section damages",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Safe"
+        },
+        {
+          "value": 0.01,
+          "desc": "Light damages"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed"
+        }
+      ]
+    },
+    {
+      "num": 83,
+      "desc": "Strobe lights",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 84,
+      "desc": "Lights of carrier system of instrumental landing\n(used in cockpit)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off to 0.1"
+        },
+        {
+          "value": 0.1,
+          "desc": "Red to 0.2"
+        },
+        {
+          "value": 0.2,
+          "desc": "Red+Green to 0.4"
+        },
+        {
+          "value": 0.4,
+          "desc": "Green to 0.6"
+        },
+        {
+          "value": 0.6,
+          "desc": "Green+Yellow to 0.8"
+        },
+        {
+          "value": 0.8,
+          "desc": "Yellow to 1.0"
+        }
+      ]
+    },
+    {
+      "num": 85,
+      "desc": "Nose gear  launch bar for catapult shuttle",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Up "
+        },
+        {
+          "value": 1,
+          "desc": "Lowered"
+        }
+      ]
+    },
+    {
+      "num": 86,
+      "desc": "Air intake’s shock wave devices",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 87,
+      "desc": "F-15 air intake animation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Up"
+        },
+        {
+          "value": 1,
+          "desc": "Down"
+        }
+      ]
+    },
+    {
+      "num": 88,
+      "desc": "Formation lights",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 89,
+      "desc": "Nozzle shutters right engine",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Close"
+        },
+        {
+          "value": 1,
+          "desc": "Open"
+        }
+      ]
+    },
+    {
+      "num": 90,
+      "desc": "Nozzle shutters left engine",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Close"
+        },
+        {
+          "value": 1,
+          "desc": "Open"
+        }
+      ]
+    },
+    {
+      "num": 91,
+      "desc": "Folding ladder",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 92,
+      "desc": "Tethering",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 93,
+      "desc": "Left intake louver for Su-27",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 94,
+      "desc": "Right intake louver for Su-27",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 95,
+      "desc": "Aircraft control surfaces on parcking",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "With hydraulic pressure (neutral)"
+        },
+        {
+          "value": 1,
+          "desc": "Without  pressure (deflected)"
+        }
+      ]
+    },
+    {
+      "num": 96,
+      "desc": "Pilot hands on the controls and  ejection seat handle",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "On seat handle"
+        },
+        {
+          "value": 0.5,
+          "desc": "On controls (1 var.)"
+        },
+        {
+          "value": 1,
+          "desc": "On controls (2 var.)"
+        }
+      ]
+    },
+    {
+      "num": 97,
+      "desc": "Belts for ejection seat and parachute",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "On the seat without pilot"
+        },
+        {
+          "value": 0.5,
+          "desc": "On the pilot"
+        },
+        {
+          "value": 1,
+          "desc": "On the pilot after ejecting"
+        }
+      ]
+    },
+    {
+      "num": 98,
+      "desc": "Coloured glass of crash helmet draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Down"
+        },
+        {
+          "value": 1,
+          "desc": "Up"
+        }
+      ]
+    },
+    {
+      "num": 99,
+      "desc": "Pilot’s head incline",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Down"
+        },
+        {
+          "value": 1,
+          "desc": "Up"
+        }
+      ]
+    },
+    {
+      "num": 100,
+      "desc": "Ejection seat type",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0.01 increment"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 101,
+      "desc": "Wheel #1 rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 102,
+      "desc": "Wheel #2 rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 103,
+      "desc": "Wheel #3 rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 104,
+      "desc": "Wheel #4 rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 105,
+      "desc": "Wheel #5 rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 106,
+      "desc": "Wheel #6 rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 107,
+      "desc": "Wheel #7 rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 108,
+      "desc": "Wheel #8 rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 109,
+      "desc": "Wheel #9 rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 110,
+      "desc": "Wheel #10 rotation",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0"
+        },
+        {
+          "value": 1,
+          "desc": "360 degree"
+        }
+      ]
+    },
+    {
+      "num": 111,
+      "desc": "Ejection seat skin variant",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0.01 increment"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 112,
+      "desc": "Flight suit skin variant",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0.01 increment"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 113,
+      "desc": "Crash helmet skin variant",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0.01 increment"
+        },
+        {
+          "value": 1,
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "num": 114,
+      "desc": "External cockpit/canopy draw argument (for eliminating collision with player’s cockpit)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "On"
+        },
+        {
+          "value": 1,
+          "desc": "Off"
+        }
+      ]
+    },
+    {
+      "num": 115,
+      "desc": "Right bank trimmer",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Tail edge down"
+        },
+        {
+          "value": 1,
+          "desc": "Tail edge up"
+        }
+      ]
+    },
+    {
+      "num": 116,
+      "desc": "Left bank trimmer",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Tail edge down"
+        },
+        {
+          "value": 1,
+          "desc": "Tail edge up"
+        }
+      ]
+    },
+    {
+      "num": 117,
+      "desc": "Right pitch trimmer",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Tail edge down"
+        },
+        {
+          "value": 1,
+          "desc": "Tail edge up"
+        }
+      ]
+    },
+    {
+      "num": 118,
+      "desc": "Left pitch trimmer",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Tail edge down"
+        },
+        {
+          "value": 1,
+          "desc": "Tail edge up"
+        }
+      ]
+    },
+    {
+      "num": 119,
+      "desc": "Right Rudder trimmer",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Right"
+        },
+        {
+          "value": 1,
+          "desc": "Left"
+        }
+      ]
+    },
+    {
+      "num": 120,
+      "desc": "1st section of spoilers. Right wing.",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 121,
+      "desc": "2nd section of spoilers. Right wing.",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 122,
+      "desc": "3rd section of spoilers. Right wing.",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 123,
+      "desc": "1st section of spoilers. Left wing.",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 124,
+      "desc": "2nd section of spoilers. Left wing.",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 125,
+      "desc": "3rd section of spoilers. Left wing.",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 126,
+      "desc": "Center section of right flaps",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 127,
+      "desc": "Outward section of right flaps",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 128,
+      "desc": "Center section of left flaps",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 129,
+      "desc": "Outward section of left flaps",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 130,
+      "desc": "Central section of right slat",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 131,
+      "desc": "Outward section of right slat",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 132,
+      "desc": "Central section of left slat",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 133,
+      "desc": "Outward section of left slat",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 134,
+      "desc": "Damage/destruction wheel #1",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 135,
+      "desc": "Damage/destruction wheel #2",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 136,
+      "desc": "Damage/destruction wheel #3",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 137,
+      "desc": "Damage/destruction wheel #4",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 138,
+      "desc": "Damage/destruction wheel #5",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 139,
+      "desc": "Damage/destruction wheel #6",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 140,
+      "desc": "Damage/destruction wheel #7",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 141,
+      "desc": "Damage/destruction wheel #8",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 142,
+      "desc": "Damage/destruction wheel #9",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 143,
+      "desc": "Damage/destruction wheel #10",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 144,
+      "desc": "Damage/destruction pitot probe",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 145,
+      "desc": "Damage/destruction reserve pitot probe",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 146,
+      "desc": "Damage/destruction nose cowl",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 147,
+      "desc": "Damage/destruction nose section of fuselage.\nUpper part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 148,
+      "desc": "Damage/destruction nose section of fuselage.\nLower part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 149,
+      "desc": "Damage/destruction nose section of fuselage.\nRight side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 150,
+      "desc": "Damage/destruction nose section of fuselage.\nLeft side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 151,
+      "desc": "Damage/destruction central section of fuselage.\nUpper part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 152,
+      "desc": "Damage/destruction central section of fuselage.\nLower part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 153,
+      "desc": "Damage/destruction central section of fuselage.\nRight side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 154,
+      "desc": "Damage/destruction central section of fuselage.\nLeft side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 155,
+      "desc": "Damage/destruction tail section of fuselage.\nUpper part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 156,
+      "desc": "Damage/destruction tail section of fuselage.\nLower part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 157,
+      "desc": "Damage/destruction tail section of fuselage.\nRight side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 158,
+      "desc": "Damage/destruction tail section of fuselage.\nLeft side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 159,
+      "desc": "Damage/destruction tail cone.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 160,
+      "desc": "Damage/destruction forward section of right engine nacelle (cowling 1).",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 161,
+      "desc": "Damage/destruction back section of right engine nacelle (cowling 1).",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 162,
+      "desc": "Damage/destruction central section of right engine nacelle (cowling 1).\nUpper part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 163,
+      "desc": "Damage/destruction central section of right engine nacelle (cowling 1).\nLower part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 164,
+      "desc": "Damage/destruction central section of right engine nacelle (cowling 1).\nRight side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 165,
+      "desc": "Damage/destruction central section of right engine nacelle (cowling 1).\nLeft side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 166,
+      "desc": "Damage/destruction forward section of left engine nacelle (cowling 1).",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 167,
+      "desc": "Damage/destruction back section of left engine nacelle (cowling 1).",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 168,
+      "desc": "Damage/destruction central section of left engine nacelle (cowling 1).\nUpper part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 169,
+      "desc": "Damage/destruction central section of left engine nacelle (cowling 1).\nLower part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 170,
+      "desc": "Damage/destruction central section of left engine nacelle (cowling 1).\nLeft side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 171,
+      "desc": "Damage/destruction forward section of right engine nacelle (cowling 2).",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 172,
+      "desc": "Damage/destruction back section of right engine nacelle (cowling 2).",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 173,
+      "desc": "Damage/destruction central section of right engine nacelle (cowling 2).\nUpper part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 174,
+      "desc": "Damage/destruction central section of right engine nacelle (cowling 2).\nLower part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 175,
+      "desc": "Damage/destruction central section of right engine nacelle (cowling 2).\nRight side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 176,
+      "desc": "Damage/destruction central section of right engine nacelle (cowling 2).\nLeft side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 177,
+      "desc": "Damage/destruction forward section of left engine nacelle (cowling 2).",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 178,
+      "desc": "Damage/destruction back section of left engine nacelle (cowling 2).",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 179,
+      "desc": "Damage/destruction central section of left engine nacelle (cowling 2).\nUpper part.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 180,
+      "desc": "Damage/destruction central section of left engine nacelle (cowling 2).\nRight side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 181,
+      "desc": "Damage/destruction central section of left engine nacelle (cowling 2).\nLeft side.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 182,
+      "desc": "Brake flap #1",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 183,
+      "desc": "Damage brake flap #1",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 184,
+      "desc": "Brake flap #2",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 185,
+      "desc": "Damage brake flap #2",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 186,
+      "desc": "Brake flap #3",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 187,
+      "desc": "Damage brake flap #3",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 188,
+      "desc": "Brake flap #4",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 189,
+      "desc": "Damage brake flap #4",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 190,
+      "desc": "Navigation light #1",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 191,
+      "desc": "Navigation light #2",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 192,
+      "desc": "Navigation light #3",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 193,
+      "desc": "Navigation light #4",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 194,
+      "desc": "Navigation light #5",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 195,
+      "desc": "Navigation light #6",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 196,
+      "desc": "Navigation light #7",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 197,
+      "desc": "Navigation light #8",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 198,
+      "desc": "Navigation light #9",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 199,
+      "desc": "Navigation light #10",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 200,
+      "desc": "Formation light #1",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 201,
+      "desc": "Formation light #2",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 202,
+      "desc": "Formation light #3",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 203,
+      "desc": "Formation light #4",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 204,
+      "desc": "Formation light #5",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 205,
+      "desc": "Formation light #6",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 206,
+      "desc": "Formation light #7",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 207,
+      "desc": "Formation light #8",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 208,
+      "desc": "Landing lamp #1",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 209,
+      "desc": "Landing lamp #2",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 210,
+      "desc": "Landing lamp #3",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 211,
+      "desc": "Landing lamp #4",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 212,
+      "desc": "Landing lamp #5",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 213,
+      "desc": "Damage of outward section of right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 214,
+      "desc": "Damage of center section of right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 215,
+      "desc": "Damage of inner section of right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 216,
+      "desc": "Damage of aileron right wing",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 217,
+      "desc": "Damage of inner section of flaps for right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 218,
+      "desc": "Damage of center section of flaps for right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 219,
+      "desc": "Damage of outward section of flaps for right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 220,
+      "desc": "Damage of inner section of slats for right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 221,
+      "desc": "Damage of center section of slats for right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 222,
+      "desc": "Damage of outward section of slats for right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 223,
+      "desc": "Damage of outward section of left wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 224,
+      "desc": "Damage of center section of left wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 225,
+      "desc": "Damage of inner section of left wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 226,
+      "desc": "Damage of aileron left wing",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 227,
+      "desc": "Damage of inner section of flaps for left wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 228,
+      "desc": "Damage of center section of flaps for left wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 229,
+      "desc": "Damage of outward section of flaps for left wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 230,
+      "desc": "Damage of inner section of slats for right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 231,
+      "desc": "Damage of center section of slats for right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 232,
+      "desc": "Damage of outward section of slats for right wing.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 233,
+      "desc": "Damage of outward section for right stabilizator",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 234,
+      "desc": "Damage of inner section for right stabilizator",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 235,
+      "desc": "Damage of outward section for left stabilizator",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 236,
+      "desc": "Damage of inner section for left stabilizator",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 237,
+      "desc": "Damage of outward section for right elevator",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 238,
+      "desc": "Damage of inner section for right elevator",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 239,
+      "desc": "Damage of outward section for left elevator",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 240,
+      "desc": "Damage of inner section for left elevator",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 241,
+      "desc": "Damage of upper section of right tail-fin",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 242,
+      "desc": "Damage of center section of right tail-fin",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 243,
+      "desc": "Damage of root section of right tail-fin",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 244,
+      "desc": "Damage of upper section of left tail-fin",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 245,
+      "desc": "Damage of center section of left tail-fin",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 246,
+      "desc": "Damage of root section of left tail-fin",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 247,
+      "desc": "Damage of  right rudder.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 248,
+      "desc": "Damage of  left rudder.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 249,
+      "desc": "Damage od outward section of right canard.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 250,
+      "desc": "Damage od inner section of right canard.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 251,
+      "desc": "Damage od outward section of left canard.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 252,
+      "desc": "Damage od inner section of left canard.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 253,
+      "desc": "Damage of nose gear leg #1",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 254,
+      "desc": "Damage of nose gear leg #2",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 255,
+      "desc": "Damage of right gear leg #1",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 256,
+      "desc": "Damage of right gear leg #2",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 257,
+      "desc": "Damage of right gear leg #3",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 258,
+      "desc": "Damage of right gear leg #4",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 259,
+      "desc": "Damage of left gear leg #1",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 260,
+      "desc": "Damage of left gear leg #2",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 261,
+      "desc": "Damage of left gear leg #3",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 262,
+      "desc": "Damage of left gear leg #4",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 263,
+      "desc": "Damage of center gear leg",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 264,
+      "desc": "Damage of tail gear leg",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 265,
+      "desc": "Damage of nose & tail landing gear doors.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 266,
+      "desc": "Damage of right landing gear doors.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 267,
+      "desc": "Damage of left landing gear doors.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 268,
+      "desc": "Damage of central landing gear doors.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 269,
+      "desc": "Damage of right outward engine.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 270,
+      "desc": "Damage of right inner engine.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 271,
+      "desc": "Damage of center engine.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 272,
+      "desc": "Damage of left inner engine.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 273,
+      "desc": "Damage of left outward engine.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 274,
+      "desc": "Antisurge door #1",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 275,
+      "desc": "Antisurge door #2",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 276,
+      "desc": "Antisurge door #3",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 277,
+      "desc": "Antisurge door #4",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 278,
+      "desc": "Antisurge door #5",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 279,
+      "desc": "Antisurge door #6",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 280,
+      "desc": "Antisurge door #7",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 281,
+      "desc": "Antisurge door #8",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 282,
+      "desc": "Antisurge door #9",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 283,
+      "desc": "Antisurge door #10",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 284,
+      "desc": "Antisurge door #11",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 285,
+      "desc": "Antisurge door #12",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 286,
+      "desc": "Antisurge door #13",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 287,
+      "desc": "Antisurge door #14",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 288,
+      "desc": "Antisurge door #15",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 289,
+      "desc": "Antisurge door #16",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Open"
+        },
+        {
+          "value": 0,
+          "desc": "Close"
+        }
+      ]
+    },
+    {
+      "num": 290,
+      "desc": "Nozzle rotation #1/ thrust reverser #1",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 1,
+          "desc": "Up"
+        },
+        {
+          "value": -1,
+          "desc": "Down"
+        }
+      ]
+    },
+    {
+      "num": 291,
+      "desc": "Nozzle rotation #2/ thrust reverser #2",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 1,
+          "desc": "Up"
+        },
+        {
+          "value": -1,
+          "desc": "Down"
+        }
+      ]
+    },
+    {
+      "num": 292,
+      "desc": "Nozzle rotation #1 \nright-left",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Clockwise"
+        },
+        {
+          "value": 1,
+          "desc": "Counterclockwise"
+        }
+      ]
+    },
+    {
+      "num": 293,
+      "desc": "Nozzle rotation #2 \nright-left",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Clockwise"
+        },
+        {
+          "value": 1,
+          "desc": "Counterclockwise"
+        }
+      ]
+    },
+    {
+      "num": 294,
+      "desc": "Nozzle rotation #3/ thrust reverser #3",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 1,
+          "desc": "Up"
+        },
+        {
+          "value": -1,
+          "desc": "Down"
+        }
+      ]
+    },
+    {
+      "num": 295,
+      "desc": "Nozzle rotation #4/ thrust reverser #4",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 1,
+          "desc": "Up"
+        },
+        {
+          "value": -1,
+          "desc": "Down"
+        }
+      ]
+    },
+    {
+      "num": 296,
+      "desc": "Damage of access door/cowl panel #1.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 297,
+      "desc": "Damage of access door/cowl panel #2.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 298,
+      "desc": "Damage of access door/cowl panel #3.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 299,
+      "desc": "Damage of access door/cowl panel #4.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 300,
+      "desc": "Damage of access door/cowl panel #5.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 301,
+      "desc": "Damage of access door/cowl panel #6.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 302,
+      "desc": "Damage of access door/cowl panel #7.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 303,
+      "desc": "Damage of access door/cowl panel #8.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 304,
+      "desc": "Damage of access door/cowl panel #9.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 305,
+      "desc": "Damage of access door/cowl panel #10.",
+      "controltype": "",
+      "damage": true,
+      "level": [
+        {
+          "value": 0,
+          "desc": "No damage"
+        },
+        {
+          "value": 1,
+          "desc": "Destroyed (in 0.01 increments)"
+        }
+      ]
+    },
+    {
+      "num": 306,
+      "desc": "Slew angle of optical sensors in vertical",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Lower position"
+        },
+        {
+          "value": 0,
+          "desc": "Neutral position"
+        },
+        {
+          "value": 1,
+          "desc": "Higher position"
+        }
+      ]
+    },
+    {
+      "num": 307,
+      "desc": "Slew angle of optical sensors in horizontal",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left position"
+        },
+        {
+          "value": 0,
+          "desc": "Neutral position"
+        },
+        {
+          "value": 1,
+          "desc": "Right position"
+        }
+      ]
+    },
+    {
+      "num": 308,
+      "desc": "Weapon pylon #1 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 309,
+      "desc": "Weapon pylon #2 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 310,
+      "desc": "Weapon pylon #3 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 311,
+      "desc": "Weapon pylon #4 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 312,
+      "desc": "Weapon pylon #5 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 313,
+      "desc": "Weapon pylon #6 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 314,
+      "desc": "Weapon pylon #7 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 315,
+      "desc": "Weapon pylon #8 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 316,
+      "desc": "Weapon pylon #9 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 317,
+      "desc": "Weapon pylon #10 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 318,
+      "desc": "Weapon pylon #11 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 319,
+      "desc": "Weapon pylon #12 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 320,
+      "desc": "Weapon pylon #13 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 321,
+      "desc": "Weapon pylon #14 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 322,
+      "desc": "Weapon pylon #15 draw",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Full"
+        },
+        {
+          "value": 0.5,
+          "desc": "Without weapon holders"
+        },
+        {
+          "value": 1,
+          "desc": "Not draw"
+        }
+      ]
+    },
+    {
+      "num": 323,
+      "desc": "Integral stairs",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Retracted "
+        },
+        {
+          "value": 1,
+          "desc": "Extended"
+        }
+      ]
+    },
+    {
+      "num": 324,
+      "desc": "Angle of rotation of fan/compressor and turbine for engine #1",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Rotate fase On"
+        },
+        {
+          "value": 0,
+          "desc": "0 degree"
+        },
+        {
+          "value": 1,
+          "desc": "360degree"
+        }
+      ]
+    },
+    {
+      "num": 325,
+      "desc": "Angle of rotation of fan/compressor and turbine for engine #2",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Rotate fase On"
+        },
+        {
+          "value": 0,
+          "desc": "0 degree"
+        },
+        {
+          "value": 1,
+          "desc": "360degree"
+        }
+      ]
+    },
+    {
+      "num": 326,
+      "desc": "Angle of rotation of fan/compressor and turbine for engine #3",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Rotate fase On"
+        },
+        {
+          "value": 0,
+          "desc": "0 degree"
+        },
+        {
+          "value": 1,
+          "desc": "360degree"
+        }
+      ]
+    },
+    {
+      "num": 327,
+      "desc": "Angle of rotation of fan/compressor and turbine for engine #4",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Rotate fase On"
+        },
+        {
+          "value": 0,
+          "desc": "0 degree"
+        },
+        {
+          "value": 1,
+          "desc": "360degree"
+        }
+      ]
+    },
+    {
+      "num": 328,
+      "desc": "Angle of rotation of fan/compressor and turbine for engine #5",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Rotate fase On"
+        },
+        {
+          "value": 0,
+          "desc": "0 degree"
+        },
+        {
+          "value": 1,
+          "desc": "360degree"
+        }
+      ]
+    },
+    {
+      "num": 329,
+      "desc": "Angle of rotation of fan/compressor and turbine for engine #6",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Rotate fase On"
+        },
+        {
+          "value": 0,
+          "desc": "0 degree"
+        },
+        {
+          "value": 1,
+          "desc": "360degree"
+        }
+      ]
+    },
+    {
+      "num": 330,
+      "desc": "Angle of rotation of fan/compressor and turbine for engine #7",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Rotate fase On"
+        },
+        {
+          "value": 0,
+          "desc": "0 degree"
+        },
+        {
+          "value": 1,
+          "desc": "360degree"
+        }
+      ]
+    },
+    {
+      "num": 331,
+      "desc": "Angle of rotation of fan/compressor and turbine for engine #8",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Rotate fase On"
+        },
+        {
+          "value": 0,
+          "desc": "0 degree"
+        },
+        {
+          "value": 1,
+          "desc": "360degree"
+        }
+      ]
+    },
+    {
+      "num": 332,
+      "desc": "Angle of rotation for adjustable stabilizer #1",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Tail edge down"
+        },
+        {
+          "value": 1,
+          "desc": "Tail edge up"
+        }
+      ]
+    },
+    {
+      "num": 333,
+      "desc": "Angle of rotation for adjustable stabilizer #2",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Tail edge down"
+        },
+        {
+          "value": 1,
+          "desc": "Tail edge up"
+        }
+      ]
+    },
+    {
+      "num": 334,
+      "desc": "Brake parachute slew in vertical",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Down"
+        },
+        {
+          "value": 1,
+          "desc": "Up"
+        }
+      ]
+    },
+    {
+      "num": 335,
+      "desc": "Brake parachute slew in horizontal",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Left"
+        },
+        {
+          "value": 1,
+          "desc": "Right"
+        }
+      ]
+    },
+    {
+      "num": 336,
+      "desc": "Cap of brake parachute",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Close"
+        },
+        {
+          "value": 1,
+          "desc": "Open"
+        }
+      ]
+    }
+  ]
+}

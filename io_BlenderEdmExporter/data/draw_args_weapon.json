@@ -1,0 +1,228 @@
+{
+  "args": [
+    {
+      "num": 0,
+      "desc": "Drag chute for bombs",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Off"
+        },
+        {
+          "value": 1,
+          "desc": "On"
+        }
+      ]
+    },
+    {
+      "num": 1,
+      "desc": "Stages for missiles",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "1-st stage "
+        },
+        {
+          "value": 1,
+          "desc": "2-nd stage"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "desc": "Spreading wings for missiles and bombs",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Folded wings"
+        },
+        {
+          "value": 1,
+          "desc": "Extended wings"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "desc": "Draw turn of weapon to longitudinal axis\n(bombs on the TERs)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": -1,
+          "desc": "Counterclockwise"
+        },
+        {
+          "value": 1,
+          "desc": "Clockwise"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "desc": "Cover of the launcher tube #1 (For Vikhrs)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Closed"
+        },
+        {
+          "value": 1,
+          "desc": "Opened"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "desc": "Cover of the launcher tube #2 (For Vikhrs)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Closed"
+        },
+        {
+          "value": 1,
+          "desc": "Opened"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "desc": "Cover of the launcher tube #3 (For Vikhrs)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Closed"
+        },
+        {
+          "value": 1,
+          "desc": "Opened"
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "desc": "Cover of the launcher tube #4 (For Vikhrs)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Closed"
+        },
+        {
+          "value": 1,
+          "desc": "Opened"
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "desc": "Cover of the launcher tube #5 (For Vikhrs)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Closed"
+        },
+        {
+          "value": 1,
+          "desc": "Opened"
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "desc": "Cover of the launcher tube #6 (For Vikhrs)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Closed"
+        },
+        {
+          "value": 1,
+          "desc": "Opened"
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "desc": "Cover of the launcher tube #7 (For Vikhrs)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Closed"
+        },
+        {
+          "value": 1,
+          "desc": "Opened"
+        }
+      ]
+    },
+    {
+      "num": 11,
+      "desc": "Cover of the launcher tube #8 (For Vikhrs)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Closed"
+        },
+        {
+          "value": 1,
+          "desc": "Opened"
+        }
+      ]
+    },
+    {
+      "num": 12,
+      "desc": "Cowl flap of optical sensors (Mercury pod) or bomb bay (KMGU)",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "Closed"
+        },
+        {
+          "value": 1,
+          "desc": "Opened"
+        }
+      ]
+    },
+    {
+      "num": 14,
+      "desc": "Gun barrels deflection from bore line for gun pods",
+      "controltype": "",
+      "damage": false,
+      "level": [
+        {
+          "value": 0,
+          "desc": "0°"
+        },
+        {
+          "value": 1,
+          "desc": "30°"
+        }
+      ]
+    }
+  ]
+}
