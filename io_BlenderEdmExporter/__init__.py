@@ -70,6 +70,8 @@ def register():
     bpy.utils.register_class(ActionOptionPanel)
     bpy.utils.register_class(EDMMessageBox)
 
+    bpy.utils.register_class(EDMObjectContextMenuSubMenu)
+    bpy.types.VIEW3D_MT_object_context_menu.append(EDMObjectContextMenuSubMenuFunc)
 def unregister():
     bpy.utils.unregister_class(ActionOptionPanel)
     bpy.utils.unregister_class(EDMObjectPanel)
@@ -77,6 +79,8 @@ def unregister():
     bpy.utils.unregister_class(ExportEDMFile)
     bpy.utils.unregister_class(EDMMessageBox)
 
+    bpy.utils.unregister_class(EDMObjectContextMenuSubMenu)
+    bpy.types.VIEW3D_MT_object_context_menu.remote(EDMObjectContextMenuSubMenuFunc)
 
 
 # This allows you to run the script directly from Blender's Text editor

@@ -1,5 +1,25 @@
 import bpy
 
+class EDMObjectContextMenuSubMenu( bpy.types.Menu ):
+    bl_idname = "edm.menu.object.context"
+    bl_label = "EDM Object Properties"
+    bl_options = { "REGUSTER", "UNDO" }
+
+    def draw( self, context ):
+        layout = self.layout
+        target = context.object
+        if target.type == "MESH":
+            layout.label( text="Mesh" )
+            layout.prop(target, "EDMRenderType" )
+        
+        if target.type == "EMPTY":
+            layout.label( text="Empty" )
+            layout.prop(target, "EDMEmptyType" )
+        
+
+def EDMObjectContextMenuSubMenuFunc( self, context ):
+    self.layout.menu( EDMObjectContextMenuSubMenu.bl_idname )
+
 class EDMObjectPanel(bpy.types.Panel):
     bl_idname = "OBJECT_PT_select"
     bl_label = "EDM"
