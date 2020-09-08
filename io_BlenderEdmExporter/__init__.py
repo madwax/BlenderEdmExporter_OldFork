@@ -11,6 +11,8 @@ from .edmpanels import*
 from .edmprops import*
 from .edmmessagebox import*
 from .edmprojectsettings import*
+from .edmmaterials import*
+
 from bpy_extras.io_utils import ExportHelper
 
 if "bpy" in locals():
@@ -75,6 +77,7 @@ def register():
     bpy.types.VIEW3D_MT_object_context_menu.append(EDMObjectContextMenuSubMenuFunc)
 
     registerProjectSettings()
+    registerEDMMaterialsStuff()
 
 def unregister():
     bpy.utils.unregister_class(ActionOptionPanel)
@@ -87,6 +90,7 @@ def unregister():
     bpy.types.VIEW3D_MT_object_context_menu.remote(EDMObjectContextMenuSubMenuFunc)
 
     unregisterProjectSettings()
+    unregisterEDMMaterialsStuff()
 
 
 
