@@ -51,7 +51,7 @@ class EDM_EXPORTER_Draw_Arguments:
     fixedFilepath = os.path.abspath( filepath )
 
     try:
-      f = open( fixedFilepath, "r" )
+      f = open( fixedFilepath, encoding="utf8" )
       loadStr = f.read()
       loadStr.strip()
       rawData = json.loads( loadStr )
