@@ -12,6 +12,7 @@ from .edmprops import*
 from .edmmessagebox import*
 from .edmprojectsettings import*
 from .edmmaterials import*
+from .edmnodetreeexporter import registerEDMNodeExporter, unregisterEDMNodeExporter
 
 from bpy_extras.io_utils import ExportHelper
 
@@ -78,6 +79,7 @@ def register():
 
     registerProjectSettings()
     registerEDMMaterialsStuff()
+    registerEDMNodeExporter()
 
 def unregister():
     bpy.utils.unregister_class(ActionOptionPanel)
@@ -91,8 +93,7 @@ def unregister():
 
     unregisterProjectSettings()
     unregisterEDMMaterialsStuff()
-
-
+    unregisterEDMNodeExporter()
 
 # This allows you to run the script directly from Blender's Text editor
 # to test the add-on without having to install it.

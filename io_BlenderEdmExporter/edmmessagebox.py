@@ -37,3 +37,6 @@ class EDMMessageBox(bpy.types.Operator):
              for wrnStr in list(self.wrnlist.split('|')):
                  col.label(text="­­­   {}".format(wrnStr))
          self.layout.label(text="")
+
+def EDMUiMessageBox( title, message ):
+    bpy.ops.edmexporter.messagebox('INVOKE_DEFAULT', message=title, wrnlist=message )

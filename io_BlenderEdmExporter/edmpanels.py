@@ -1,7 +1,7 @@
 import bpy
 
 class EDMObjectContextMenuSubMenu( bpy.types.Menu ):
-    bl_idname = "edm.menu.object.context"
+    bl_idname = "EDMEXPORTER_MT_ObjectContextMenu"
     bl_label = "EDM Object Properties"
     bl_options = { "REGUSTER", "UNDO" }
 

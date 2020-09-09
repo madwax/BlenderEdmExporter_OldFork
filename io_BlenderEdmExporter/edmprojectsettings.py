@@ -18,12 +18,12 @@ thePluginStaticDataPath = None
 # Draw Arguments
 # DCS has some common Draw Arguments for Aircraft, cockpits etc etc. 
 # With this the user can select what type of project they are creating 
-class EDM_EXPORTER_Draw_Argument_Key:
+class EDMEXPORTER_Draw_Argument_Key:
   def __init__( self, val, desc ):
     self.value = val;
     self.description = desc
 
-class EDM_EXPORTER_Draw_Argument:
+class EDMEXPORTER_Draw_Argument:
   def __init__( self, indexNum ):
     self.argumentNumber = indexNum
     self.description = ""
@@ -37,10 +37,10 @@ class EDM_EXPORTER_Draw_Argument:
     levels = argItem.get( "level" )
 
     for eachLevel in levels:
-      keyLevel = EDM_EXPORTER_Draw_Argument_Key( eachLevel.get( "value" ), eachLevel.get( "desc" ) )
+      keyLevel = EDMEXPORTER_Draw_Argument_Key( eachLevel.get( "value" ), eachLevel.get( "desc" ) )
       self.keys.append( keyLevel )
 
-class EDM_EXPORTER_Draw_Arguments:
+class EDMEXPORTER_Draw_Arguments:
   def __init__( self, argListName ):
     # The name of the draw args list
     self.name = argListName
@@ -59,7 +59,7 @@ class EDM_EXPORTER_Draw_Arguments:
       for argItem in rawData[ "args" ]:
         counter = 0
         counter += 1
-        range = EDM_EXPORTER_Draw_Argument( counter )
+        range = EDMEXPORTER_Draw_Argument( counter )
         range.load( argItem )
 
       print( "We Loaded:", fixedFilepath )  
@@ -67,7 +67,7 @@ class EDM_EXPORTER_Draw_Arguments:
     except( IOError, OSError ) as e:
       print( "There was a problem loading :", fixedFilepath )
 
-class EDM_EXPORTER_Draw_Arguments_Collections:
+class EDMEXPORTER_Draw_Arguments_Collections:
   InBuiltTypes = [ 
     "Aircraft",
     "Vehicle",
@@ -81,7 +81,7 @@ class EDM_EXPORTER_Draw_Arguments_Collections:
     self.selected = "none";
   
   def isUserDefined( self, drawsTypeOf ):
-    for eachDrawArgSet in EDM_EXPORTER_Draw_Arguments_Collections.InBuiltTypes:
+    for eachDrawArgSet in EDMEXPORTER_Draw_Arguments_Collections.InBuiltTypes:
       if drawsTypeOf == eachDrawArgSet.lower() :
         return False
         
@@ -94,9 +94,9 @@ class EDM_EXPORTER_Draw_Arguments_Collections:
     print( "Loading draw args from path:", plugin_path_static_data )
     
     # Try to load any in built draw argument files. 
-    for eachDrawArgSet in EDM_EXPORTER_Draw_Arguments_Collections.InBuiltTypes:
+    for eachDrawArgSet in EDMEXPORTER_Draw_Arguments_Collections.InBuiltTypes:
 
-      newDrawArgs = EDM_EXPORTER_Draw_Arguments( eachDrawArgSet )
+      newDrawArgs = EDMEXPORTER_Draw_Arguments( eachDrawArgSet )
       self.list.append( newDrawArgs )
 
       filepath = plugin_path_static_data + "/draw_args_" + eachDrawArgSet.lower() + ".json"
@@ -137,16 +137,16 @@ def EDMEXPORTER_Project_Settings_Update_ProjectType( self, context ):
   context.window_manager.edm_export_projectsettings.sync()
 
 class EDMEXPORTER_Project_Settings( bpy.types.PropertyGroup ):
-  _isLoaded=False
-  _projectType=""
+  _isLoaded = False
+  _projectType = ""
   
-  projectType = bpy.props.EnumProperty( name="Project Type", items=[("Not Loaded","Not Loaded","Not Loaded")] )
+  projectType : bpy.props.EnumProperty( name="Project Type", items=[("Not Loaded","Not Loaded","Not Loaded")] )
   
   def init( self ):
     self.load()
     self.enabled()
     
-    del EDMEXPORTER_Project_Settings.projectType
+    #del EDMEXPORTER_Project_Settings.projectType
     
     listOfTypes = bpy.context.window_manager.edmexport_drawargs_collection.uiEnumPropItems()
     
@@ -266,7 +266,7 @@ class EDMEXPORTER_PT_Project( bpy.types.Panel ):
 def registerProjectSettings():
   thePluginPath = os.path.abspath( os.path.dirname( __file__ ) )
   thePluginStaticDataPath = os.path.abspath( thePluginPath + "/data" )
-  bpy.types.WindowManager.edmexport_drawargs_collection = EDM_EXPORTER_Draw_Arguments_Collections()
+  bpy.types.WindowManager.edmexport_drawargs_collection = EDMEXPORTER_Draw_Arguments_Collections()
   bpy.context.window_manager.edmexport_drawargs_collection.load( thePluginStaticDataPath )
   bpy.utils.register_class( EDMEXPORTER_PT_Project )
   bpy.utils.register_class( EDMEXPORTER_OT_Project_Populate )
