@@ -143,6 +143,8 @@ class EDM_PT_Material( bpy.types.Panel ):
     def draw(self, context):
         self.layout.row().operator( "edm.op_ui_materials_dialog" )
         self.layout.row().operator( "edm.op_ui_exportnodetree" )
+        self.layout.row().operator( "edm.op_ui_importnodetree" )
+
 
 def registerEDMMaterialsStuff():
 
